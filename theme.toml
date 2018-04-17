@@ -1,0 +1,15 @@
+name = "Showcase"
+license = "MIT"
+licenselink = "https://github.com/k0n3ru/showcase/blob/master/LICENSE.md"
+description = "Simple e-commerce and showcase theme"
+tags = ["e-commerce", "showcase"]
+features = ["products", "listings", "categories"]
+min_version = 0.21
+
+[author]
+    name = "Krishna Koneru"
+    homepage = "http://k0n3ru.github.io"
+
+[original]
+    author =  "spf13"
+    homepage = "http://spf13.com"

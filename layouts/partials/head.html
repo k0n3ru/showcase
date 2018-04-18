@@ -9,9 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   {{ if .IsHome -}}
-  <title>{{ .Site.Title }}</title>
+  <title>Home title</title>
   {{- else -}}
   <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
   {{- end }}
+
+  {{ partial "scripts.html" . }}
 
 </head>
